@@ -1,0 +1,8 @@
+coding_task:
+  description: >
+    Execute the following coding assignment: {assignment}
+    Ensure the code is efficient, well-documented, and mathematically accurate.
+  expected_output: >
+    ONLY return the raw Python code. Do not output JSON, do not use function calls, 
+    and do not include markdown formatting like ```python. Just the executable script.
+  agent: coder
